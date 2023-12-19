@@ -1,0 +1,34 @@
+body {
+    width: 100%;
+    height: 10000px;
+    background: linear-gradient(to right, rgb(61, 59, 59), grey);
+  }
+
+  .weather-header {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .container-fluid {
+    background: linear-gradient(to left, rgb(61, 59, 59), grey);
+    margin: 20px;
+    text-align: center;
+  }
+  
+  aside.col-lg-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #form-heading {
+    font-size: 36px;
+  }
+  .form {
+    padding-left: 10px;
+  }
+
+  .search-button {
+    margin-top: 10px;
+    }
